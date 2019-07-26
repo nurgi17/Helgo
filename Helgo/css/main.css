@@ -1,0 +1,809 @@
+/*GENERAL SETTINGS ------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+body{
+    font-family: 'Montserrat';
+    font-size: 20px;/* 20px */
+    text-rendering: optimizeLegibility;
+    background-color: #FFFFFF;
+    font-weight: 400;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.float-clearing{
+    zoom: 1;
+}
+.float-clearing:after{
+    zoom: 1;
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+header{
+    background-image: url("../img/back-head.png");
+    padding-bottom: 200px; 
+}
+h1{
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #28123E;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 1.7em;
+    font-weight: 500;
+    color: #EF5181;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #28123E; 
+}
+a{
+    text-decoration: none;
+}
+/*GENERAL SETTINGS END------------------------------------------------------------*/
+
+/* GRIDVIEW ------------------------------------------------------------*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    /* border: 1px solid red; */
+  }
+  /*GRIDVIEW END------------------------------------------------------------*/
+  
+  /*HEADER ------------------------------------------------------------*/
+    /*NAVBAR ------------------------------------------------------------*/
+#helgo{
+    text-decoration: none;
+    font-size: 1.55em;
+    color: #FFFFFF;
+}
+#main-nav img{ 
+    margin-left: 30px;
+    margin-right: 5px; 
+    margin-top: 15px;
+    width: 28.86px;
+    height: 42px;
+}
+#main-nav #main-ul{
+    margin-top: 35px; 
+    list-style: none;
+    float: right;
+}
+#main-nav #main-ul li{
+    display: inline;
+    padding-right: 40px; 
+}
+#main-nav #main-ul li a:link,
+#main-nav #main-ul li a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+    /*NAVBAR END------------------------------------------------------------*/
+#back-img{
+    margin-top: 150px;
+    width: 41.3%;
+    float: right;
+}
+#head-text{
+    margin-top: 242px;
+    margin-left: 50px; 
+    max-width: 600px;
+}
+#head-text h2{
+    color: #FFFFFF;
+}
+#head-text h1{
+    font-size: 3.7em;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.op{
+    font-size: 0.8em; 
+    margin-top: 40.9px;
+    color: #FFFFFF;
+    background-color:#28123E;
+    border: 1px solid #28123E;
+    text-transform: uppercase;
+    font-weight: 800; 
+    width: 212.15px;
+    height: 40.32px;
+    border-radius: 6px; 
+}
+#hide{
+    margin-top: 80px; 
+}
+#hide h1{
+    color: #FFFFFF;
+    margin: 0;
+}
+#hide h2{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+    
+/*HEADER END------------------------------------------------------------*/
+
+/*WHATS THE HELGO SECTION ------------------------------------------------------------*/
+#whats-the-helgo{
+    margin-top: 90px;
+}
+#whats-the-helgo img{
+    margin-top: 100px; 
+    margin-left: 10px;
+    width: 48%;
+}
+#what-text{
+    max-width: 48%;
+    float: right;
+}
+#what-text h2{
+    margin-bottom: 13px;
+}
+#what-text h1{
+    margin-bottom: 40px;
+}
+#what-text p{ 
+    line-height: 1.9em; 
+}
+#what-text #text1{
+    margin-bottom: 25px;
+}
+/*WHATS THE HELGO SECTION END------------------------------------------------------------*/
+
+/*TRIANGLE------------------------------------------------------------*/
+.triangle{
+    margin-top: 20px; 
+    margin-left:-20px; 
+}
+/*TRIANGLE END------------------------------------------------------------*/
+
+/*OUR CASES SECTION------------------------------------------------------------*/
+.cases{
+    padding: 50px;
+    margin-bottom: 128px;
+}
+.cases:last-child{
+    /* border: none; */
+}
+.cases img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.cases h2{
+    font-size: 1.7em;
+    font-weight: 400;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.cases p{
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.5em;
+}
+/*OUR CASES SECTION END------------------------------------------------------------*/
+
+/*OUR PORTFOLIO SECTION------------------------------------------------------------*/
+/* #back-port{
+    margin-right: -700px;
+} */
+#our-portfolio{
+    margin-bottom: 880px;
+}
+.up{
+    text-align: center;
+    /* margin-top: -1000px; */
+    margin-bottom: 50px;
+}
+#ahide{
+    color: #FFFFFF;
+}
+#port-nav{
+    list-style: none; 
+    text-align: center;
+    margin-bottom: 57px; 
+}
+#port-nav li{
+    display: inline;
+    padding-left: 55px;
+    padding-right: 55px; 
+}
+#port-nav li a{
+    text-decoration: none;
+    color: #28123E;
+}
+#port-nav #first a{
+    color: #EF5181;
+    font-weight: bold;
+    border-bottom: 4px solid  #EF5181;
+}
+#photos{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+/* #photos .fir{
+    margin-right: 35px;
+}
+#photos .sec{
+     margin-right: 100px;
+} */
+#photos .fou{
+    margin-top: 60px;
+    margin-left: 35px;
+}
+#photos .fif{
+    margin-left: 71px;
+    margin-top: -40px;
+}
+/*OUR PORTFOLIO SECTION END------------------------------------------------------------*/
+/*VIEW ALL BUTTON------------------------------------------------------------*/
+#view-all{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 114.8px;
+}
+/*VIEW ALL BUTTON END------------------------------------------------------------*/
+
+/*OUR TEAM SECTION------------------------------------------------------------*/
+#super{
+    margin-bottom: 292px;
+}
+#team-line{
+    margin-bottom: -200px;
+    position: relative;
+    z-index: -1;
+}
+#team-back{
+    margin-top: -370px; 
+    text-align: center;
+}
+#team1{
+    margin-top: 75px;
+}
+#team2{
+    margin-top: 150px;
+}
+#our-team{
+    margin-bottom: 756px;
+}
+/*OUR TEAM SECTION END------------------------------------------------------------*/
+
+/*OUR CLIENTS SECTION------------------------------------------------------------*/
+#our-clients{
+    background-color: #F9F9F9;
+    padding: 60px 0px 40px 0px;
+    margin-bottom: 120px;
+}
+.client{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.brends{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.brends li{
+    display: inline-block;
+}
+.brends li figure{
+    padding: 0px 30px 0px 30px; 
+}
+.dots{
+    display: block;
+    margin: 0 auto;
+}
+/*OUR CLIENTS SECTION END------------------------------------------------------------*/
+
+/*TESTIMONIAL SECTION------------------------------------------------------------*/
+#testimonials{
+    margin-bottom: 172px;
+}
+#testi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border: 5px solid #EF5181;
+    border-radius: 50%;
+}
+#left{
+    width: 5%;
+    margin-left: 15px; 
+}
+#right{
+    float: right;
+    width: 5%;
+    margin-right: 15px;
+}
+#quatation{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 566px;
+}
+#quatation p{
+    line-height: 1.5em; 
+}
+#name{
+    font-size: 0.9em;
+    color: #5D5D5D;
+    margin-top: 30px;
+    margin-bottom: 40px; 
+}
+/*TESTIMONIAL SECTION END------------------------------------------------------------*/
+/*PRICE SECTION------------------------------------------------------------*/
+#price{
+    margin-top: -885px; 
+    margin-bottom: 250px;
+}
+#back-price{
+    margin-left:-50px;
+    position: relative;
+    z-index: -1;
+}
+.price-box{
+    padding-top: 80px; 
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 289px;
+    height: 470px;
+    border-radius: 80px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: -1;
+}
+.price-box h3,
+#price-box1 h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+#price-box1{
+    padding-top: 87px; 
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 331px;
+    height: 537px;
+    border-radius: 80px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brends .uuu{
+    margin-right: -20px; 
+}
+.but{
+    width: 155.33px;
+    height: 30px;
+    border: 3px solid #F271AC;
+    border-radius: 30px;
+    padding: 12px 12px; 
+    color: #F3658E;
+}
+.border-box{
+    padding: 13.5px 0 13.5px 0; 
+    margin-left: 50px;
+    border-top: 1px solid #B3B3B3;
+    border-bottom: 1px solid #B3B3B3;
+    width: 189px; 
+    margin-bottom: 30px; 
+}
+#border-box1{
+    padding: 20px 0 20px 0; 
+    margin: 0 auto;
+    border-top: 1px solid #B3B3B3;
+    border-bottom: 1px solid #B3B3B3;
+    width: 244px; 
+    margin-bottom: 30px; 
+}
+.upup{
+    margin-top: 15px;
+}
+
+/*PRICE SECTION END------------------------------------------------------------*/
+
+/*SPECIFIC SECTION------------------------------------------------------------*/
+#specific{
+    color: #FFFFFF;
+    background-color: #262626;
+}
+#order{
+    margin-left: 80px;
+    padding: 77.33px 0px 82px 0px;
+    
+}
+#order h4{
+    font-size: 1.66em;
+    line-height: 1.7em;
+    max-width: 550px;
+}
+#order p{
+    margin-top: 18px;
+    font-size: 1em;
+    max-width: 750px; 
+}
+#order a{
+    margin-top: -100px;
+    margin-right: 20px; 
+    padding: 18px 20px;
+    font-size: 0.85em;
+    color: #FFFFFF;
+    float: right;
+    background-color:#F25579;
+    border-radius: 5px;  
+}
+/*SPECIFIC SECTION END------------------------------------------------------------*/
+
+/*FOOTER------------------------------------------------------------*/
+footer{
+    padding: 169px 0px 50px 0px;
+}
+footer h4{ 
+    color: #000000;
+    font-size: 1.67em;
+    font-weight: 500;
+}
+footer p{
+    margin-top: 32px;
+    color: #929292;
+}
+footer #fff{
+    max-width: 550px;
+}
+#tab{
+    margin-top: -150px;
+    float: right;
+}
+#tab th{
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+#tab td{
+    color: #8D8D8D;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+#tab td a{
+    color: #8D8D8D;
+}
+#tab th,td{ 
+    padding: 0px 50px 0px 30px; 
+     
+}
+#tab #unique{
+    color: #000000;
+}
+#kine{
+    display: block;
+    margin: 100px auto 0px auto;
+    border-top: 1px solid #000000;
+    width: 75%;
+}
+/*FOOTER END------------------------------------------------------------*/
+
+#author{
+    text-align: center;
+}
+
+/*MEDIA QUERIES------------------------------------------------------------*/
+#hey{
+    display: none;
+}
+#menu-bar{
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 35px;
+  }
+  #menu-bar i{
+    font-size: 1.2em;
+    color: #FFFFFF;
+  }
+@media only screen and (max-width: 828px){
+    #menu-bar{
+        display: inline-block;
+    }
+    #main-ul{
+        display:none;
+        text-align: center;
+    }
+    #main-nav #main-ul{
+        float: none;
+        margin-top: -35px;
+    }
+    #main-nav #main-ul li{
+      display: block;
+      margin: 0 auto;
+      padding: 10px 0px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #helgo{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 562px){
+    #head-text h2, 
+    .cases h2, #what-text h2, .up h2, #super h2, .client h2{
+        font-size: 5.78vw;
+    }
+    #head-text h1, #what-text h1, .up h1, #super h1, .client h1{
+        font-size: 10.78vw;
+    }
+    .cases p, #text1, #text2, .up p, #super p, .client p, #quatation p{
+        font-size: 4vw;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .fou img{
+        width: 50%;
+    }
+    #left, #right{
+        display: none;
+    }
+    #testi{
+        margin-bottom: 20px; 
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 953px){
+    #head-text button{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 1078px){
+    #head-text h2{
+        margin-top: -100px;
+    }
+    #Our-cases{
+        margin-top:100px;
+    }
+}
+@media only screen and (max-width: 800px){
+    #back-img{
+        display: none;
+    }
+    #head-text{
+        margin-right: 25px; 
+    }
+    #head-text h2{
+        margin-top: -125px;
+    }
+    #team-back div{
+        width: 100%;
+    }
+    #team1,#team2{
+        margin-top: 25px;
+    }
+    #team2{
+        margin-bottom: 200px;
+    }
+    #testi{
+        width: 20%;
+    }
+    #left, #right{
+        width: 7%;
+    }
+
+}
+
+
+@media only screen and (max-width: 319px){
+    #full{
+        display: none;
+    }
+    #hey{
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    #whats-the-helgo img{
+        display: block;
+        margin:0 auto; 
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #what-text{
+       max-width: 100%;
+       float: none;
+       text-align: center;
+       margin: 0 20px;
+    }
+    .triangle{
+        display: none;
+    }
+    .fir, .sec{
+        display: none;
+    }
+    #our-portfolio{
+        margin-bottom: 0;
+    }
+    .fou{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:860px){
+    #price-box1{
+         width: 289px;
+         height: 470px;
+         padding-top: 45px; 
+         margin-bottom: 20px;
+         margin-left: 40px;
+         margin-right:20px; 
+
+    }
+}
+@media only screen and (max-width:604px){
+    .brends .uuu #price-box1{
+        margin-top: 20px;
+        margin-right: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .cases{
+        width: 100%;
+        margin-bottom: -1px;
+        border: 1px solid #000000;
+    }
+    #port-nav li{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+@media only screen and (max-width: 1280px){
+    .fou{
+        width: 55%;
+    }
+    .fif{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1083px){
+    #photos{
+        margin-right: 60px;
+    }
+    .fir{
+        width: 33%;
+        margin-left: 170px;
+        margin-right: 30px;
+    }
+    .sec{
+        width: 33%;
+    }
+    .fou{
+        width: 100%;
+    }
+    .thr, .fif{
+        display: none;
+    }
+    #order{
+        margin: 0 auto;
+        display: block;
+        width: 100%; 
+    }
+    #order a{ 
+        float: none;
+        margin: 0 auto;
+        display: block;
+        width: 236px;
+    }
+    #order h4, #order p{
+        text-align: center;
+        max-width: 100%;
+        margin: 0 10px 0 10px;
+    }
+    #order p{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 737px){
+    .fou img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 414px){
+    .fou{
+        display: none;
+    }
+    .sec{
+        display: block;
+        width: 100%;
+        margin: 0 auto; 
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .brends li figure img{
+        width: 75%;
+    }
+    #testi{
+        width: 35%;
+    }
+
+}
+@media only screen and (max-width: 375px){
+    .sec{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .sec{
+        margin-left: 1px;
+    }
+}
+@media only screen and (max-width: 1440px){
+    #price h2{
+        color: #28123E;
+    }
+}
+@media only screen and (max-width: 1163px){
+    #tab{
+        float: none;
+        margin: 0 auto;
+        text-align: center; 
+    }
+    #tab th,td{
+        padding: 0px 40px 5px 60px;
+    }
+    footer h4,p{
+        text-align: center;
+        margin: 0 10px 0 10px;
+    }
+    footer #fff{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
